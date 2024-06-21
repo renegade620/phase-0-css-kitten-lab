@@ -7,7 +7,7 @@
 }
 
 /* Select the image with id of kitty-2 */
-.kitty-2 {
+#kitty-2 {
   position: absolute;
   z-index: 2;
   top: 212px;
@@ -31,7 +31,7 @@
 }
 
 /* Select the image that has an alt attribute value matching "Kitty 5" (using attribute selector) */
-write-your-selector-here {
+img[alt="Kitty 5"] {
   position: absolute;
   z-index: 3;
   top: 217px;
